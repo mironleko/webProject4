@@ -1,0 +1,22 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr); /* Adjust as needed */
+    grid-gap: 10px;
+    width: 1472px; /* Adjust as needed */
+    margin: auto;
+}
+.content img {
+    width: 100%;
+    height: auto;
+}
+.text-container {
+    grid-column: span 32; /* Span full width */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
