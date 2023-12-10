@@ -4,9 +4,9 @@ body {
 }
 .content {
     display: grid;
-    grid-template-columns: repeat(32, 1fr); /* Adjust as needed */
+    grid-template-columns: repeat(32, 1fr);
     grid-gap: 10px;
-    width: 1472px; /* Adjust as needed */
+    width: 1472px;
     margin: auto;
 }
 .content img {
@@ -14,7 +14,7 @@ body {
     height: auto;
 }
 .text-container {
-    grid-column: span 32; /* Span full width */
+    grid-column: span 32;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     padding: 10px;
